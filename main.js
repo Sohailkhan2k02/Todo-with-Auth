@@ -6,6 +6,7 @@ const jwt = require('jsonwebtoken');
 
 // Initialize Express app
 const app = express();
+const req_r="Hello world";
 app.use(express.json());
 
 // Connect to MongoDB database
